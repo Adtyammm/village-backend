@@ -13,11 +13,6 @@
   untuk menginstal semua paket python yang digunakan
 #  4. pip install flask torch transformers pandas scikit-learn
 
-  dikarenakan dibutuhkan numpy versi 1.x.x maka kita harus menghapus numpy 2.x.xnya
-#  pip uninstall numpy
-#  pip install numpy==1.21.0
-
-
   untuk membuat model yang akan digunakan 
 #  5. python train.py
 
@@ -26,3 +21,9 @@
 
   untuk menjalankan backend
   #  7. nodemon index ( jika tidak bisa gunakan nodemon index.js)
+
+#  jika error saat running train.py
+jika error karenakan numpy dibutuhkan numpy versi 1.x.x maka kita harus menghapus numpy 2.x.xnya
+  pip uninstall numpy
+  pip install numpy==1.21.0
+
