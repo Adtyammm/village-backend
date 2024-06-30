@@ -1,0 +1,5 @@
+# dependencies
+/node_modules
+
+# Ignore Flask virtual environment
+flask/venv/
